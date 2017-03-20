@@ -1,0 +1,134 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+.jumbotron h1, ul.nav{
+  font-family: 'Arvo', courier, serif;
+}
+
+.jumbotron h1{
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: url('../img/Hero-Image.jpg');
+  color:white;
+}
+
+.jumbotron p {
+  margin bottom: 30px;
+  font-weight: 100;
+  padding: 0 50px;
+}
+
+ul.nav{
+  font-size: 13px;
+}
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.btn-lg{
+  font-size: 36px;
+}
+
+.homepage{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.homepage h2, .homepage h3{
+  text-transform: uppercase;
+  font-family: 'Arvo', courier, serif;
+  color:#d9534f;
+}
+.homepage h2{
+  font-size: 30px;
+}
+.homepage h3{
+  font-size: 26px;
+}
+
+.homepage p{
+  font-size: 21px;
+  font-weight: 300;
+}
+
+#massive{
+  margin:0 auto;
+  height: 35%;
+  width: 70%;
+}
+
+.homepage a{
+  color:#d9534f;
+}
+
+.homepage a:hover{
+  color:#d9534f;
+  text-decoration: none;
+  opacity: .8;
+}
+
+hr{
+  border-color: #d9534f;
+  width: 160px;
+  margin-top:15px;
+}
+
+#get-involved{
+  background-color: #f5f5f5;
+}
+
+footer {
+  background-color:#d9534f;
+}
+
+/* Responsive styling*/
+@media (max-width: 1199px) {
+.jumbotron h1 {
+  font-size: 56px;
+  margin-bottom: 30px;
+}
+ }
+
+ @media (max-width: 991px) {
+ .jumbotron h1 {
+   font-size: 44px;
+   margin-bottom: 30px;
+ }
+ .jumbotron p {
+   padding: 0 10px;
+ }
+
+#get-involved .col-md-4{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+}
+
+@media (max-width: 767px) {
+.jumbotron h1 {
+  font-size: 24px;
+}
+.jumbotron p {
+  padding: 0;
+  font-size: 15px;
+}
+
+.btn-lg{
+  font-size: 18px;
+}
+.homepage p{
+  font-size: 18px;
+}
+footer img{
+  width: 80%;
+}
+}
+
+}
