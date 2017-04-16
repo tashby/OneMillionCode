@@ -112,7 +112,7 @@ footer {
 }
 
 }
-
+/*Sizing for tablets*/
 @media (max-width: 767px) {
 .jumbotron h1 {
   font-size: 24px;
